@@ -1,0 +1,306 @@
+body {
+font-family: "Montserrat", sans-serif;
+background-color: black;
+color: white;
+padding: 0;
+margin: 0;
+overflow: hidden;
+
+
+}
+.main {
+    display:flex;
+    height: 100vh;
+    padding: 0.5rem;
+
+}
+.music_player {
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    height:90px;
+}
+
+.sider_bar {
+    width: 450px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-left: 1rem;
+    
+}
+
+.main_content {
+    flex: 1;
+    background-color: #8f8282;
+    border-radius: 1rem;
+    overflow: auto;
+    
+}
+
+
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
+.nav {
+    display: flex;
+    background-color: #121212;
+    flex-direction: column;
+    border-radius: 1rem;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+
+
+}
+.nav-option{
+     line-height: 2.5rem;
+     padding: 0.5rem 0.75rem;
+     opacity: 0.7;
+
+}
+
+.nav-option:hover {
+  opacity: 1;
+}
+
+.nav-option i {
+    font-size: 1.5rem;
+}
+.nav-option a {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.library {
+    background-color:#121212;
+    border-radius: 1rem;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.7rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.lab-option img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.lab-option a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 0.5rem 
+}
+ 
+
+.lab-option {
+    opacity: 0.7;
+}
+.lab-option:hover {
+    opacity: 1;
+}
+
+.icons {
+  font-size:1.5rem;
+  
+}
+.icons i {
+    margin-right: 1rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.icons i:hover {
+    opacity: 1;
+}
+.boxes {
+    margin-top: 1.5rem;
+}
+.box {
+    height: 12rem;
+    background-color: #232323;
+    margin: 0.3rem 0.3rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+
+}
+
+.p1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 1rem;
+
+}
+
+.p2 {
+    font-size: 1.2rem;
+    margin-left: 0.9rem;
+    opacity: 0.8;
+
+}
+  
+.badges {
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: rgb(204, 200, 200);
+    border: none;
+    border-radius: 100px;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    
+}
+
+.badges:hover{
+ background-color: white;
+ transition-delay: 0.1s;
+ 
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    margin: 0 0.5rem;
+}
+#install {
+    color: white;
+    background-color: #232323;
+}
+
+#install:hover {
+    color: #000000;
+    background-color: white;
+    cursor: pointer;
+}
+#user {
+    
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 0.5rem;
+}
+
+.sticky-icon img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.75rem;
+    color: white;
+    cursor: pointer;
+}
+
+.cards-container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.card {
+    background-color: #232323;
+    width: 250px;
+    border-radius: 0.5rem;
+    padding: 0.6rem  0.6rem ;
+    margin: 1rem ;
+    margin-left: 2rem;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+.main_content{
+    background-color: #141313;
+    border: 2px solid black;
+    margin-left: 1rem;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+#top {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#card1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: space-evenly;
+    align-items: center;
+}
+
+#card2{
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+}
+
+.music_player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album {
+    width:25%;
+   background-color: pink;
+}
+
+.play-back {
+    width: 50%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-controls-icons {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 1rem;
+}
+.player-controls-icons img {
+   height: 1rem;
+   align-self: center;
+   ;
+
+}
+.playeback-bar {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-top: 15px;
+   margin-right: 2rem;
+   height: 1rem;
+   cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.controls {
+    width: 25%;
+   background-color: blue;
+}

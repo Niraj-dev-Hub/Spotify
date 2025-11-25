@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music For Everyone</title>
+    <link rel="icon" href="./logo.png" type="image/png">
+    <link rel="stylesheet" href="spot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sider_bar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house" style="opacity:1;"></i>
+                    <a href="#" style="opacity:1;">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                <div class="lab-option">
+                    <img src="library_icon.png" alt="library">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+
+        <div class="boxes">
+                <div class="box">
+                        <p class="p1">Create Your First Playlist<p>
+                        <p class="p2">It's easy, we'll help you </p>
+                        <button class="badges">Create Playlist</button>
+                </div>
+                 <div class="box">
+                        <p class="p1">Let's find some posdcasts to follow
+                            <p>
+                        <p class="p2">We'll keep you updated on new episodes </p>
+                        <button class="badges">Browse Podcasts</button>
+                </div>
+        </div>
+             </div>
+             </div>
+        <div class="main_content">
+            <div class="sticky-nav">
+                <div class="sticky-icon" >
+                    <img src="backward_icon.png" style="opacity: 0.5;" alt="backward">
+                    <img src="forward_icon.png" alt="forward">
+
+                </div>
+                <div class="sticky-badges">
+                 <button class="badges" style="background: white;">Explore premium</button>
+                  <button class="badges" id="install">
+                    <i class="fa-solid fa-download" ></i>
+                    Install App</button>
+                    <i class="fa-regular fa-user" id="user"></i>
+                    </div>
+            </div>
+
+            <div class="cards-container">
+                <h2>Recently Played</h2>
+                <div class="card">
+                    <img src="card1img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global</p>
+                    <p>Your daily updates of the most played.. </p>
+            </div>
+            <h2>Trending now near you </h2>
+            <div id="card1">
+             
+                <div class="card">
+                    <img src="card2img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global></p>
+                    <p>Your daily updates of the most played.. </p>
+        </div>
+        <div class="card">
+                    <img src="card3img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global></p>
+                    <p>Your daily updates of the most played.. </p>
+        </div>
+        <div class="card">
+                    <img src="card4img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global></p>
+                    <p>Your daily updates of the most played.. </p>
+        </div>
+         <div class="card">
+                    <img src="card2img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global></p>
+                    <p>Your daily updates of the most played.. </p>
+        </div>
+        <div class="card">
+                    <img src="card3img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global></p>
+                    <p>Your daily updates of the most played.. </p>
+        </div>
+        <div class="card">
+                    <img src="card4img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global></p>
+                    <p>Your daily updates of the most played.. </p>
+        </div>
+         
+            </div>
+            <h2>Featured You</h2>
+            <div id="card2">
+                <div class="card">
+                    <img src="card1img.jpeg" alt="card1">
+                    <p id="top">Top 50 - Global</p>
+                    <p>Your daily updates of the most played.. </p>
+        </div>
+         <div class="card">
+                    <img src="card5img.jpeg" alt="card1">
+                    <p id="top">Top Songs Global</p>
+                    <p>Your daily updates of the most played.. </p>
+            </div>
+             <div class="card">
+                    <img src="card6img.jpeg" alt="card1">
+                    <p id="top">Top Songs Nepal</p>
+                    <p>Your daily updates of the most played.. </p>
+            </div>
+            </div>
+
+            </div>
+        <br><br><br><br>
+        </div>
+        <div class="music_player">
+            <div class="album"></div>
+            <div class="play-back">
+                <!-- <div class="player-controls-icons">
+                    <img src="player_icon1.png" alt="player-controls-icon">
+                    <img src="player_icon2.png" alt="player-controls-icon">
+                    <img src="player_icon3.png" alt="player-controls-icon">
+                    <img src="player_icon4.png" alt="player-controls-icon">
+                    <img src="player_icon5.png" alt="player-controls-icon">
+                </div> -->
+                <div class="playeback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" class="progress-bar" value="0" min="0" max="100" step="2">
+                    <span class="total-time">3:00</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/335b6992a0.js" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
